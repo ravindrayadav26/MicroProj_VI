@@ -1,0 +1,18 @@
+.browseBtn {
+  width: 11rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 2.17356rem;
+  background: #148a08;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%;
+  letter-spacing: 0.02944rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

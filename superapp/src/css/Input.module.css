@@ -1,0 +1,126 @@
+.RegistrationContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.signUp {
+  width: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #72db73;
+  font-family: "Single Day", cursive;
+  font-size: 9.1875vmin;
+  font-style: normal;
+  font-weight: 400;
+}
+.para {
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 4vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.688%;
+}
+.inputField {
+  width: 27vw;
+  height: 2.5rem;
+  border-radius: 0.5vw;
+  background: #292929;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  padding-left: 1.5vw;
+  color: #7c7c7c;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  letter-spacing: 0.02506rem;
+}
+.checkBoxField {
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+}
+.terms {
+  color: #7c7c7c;
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.5vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  letter-spacing: 0.02506rem;
+  text-align: center;
+}
+
+.checkbox {
+  width: 3vw;
+  height: 3vh;
+  background-color: #d9d9d9;
+}
+
+.Btn {
+  text-transform: uppercase;
+  width: 27vw;
+  height: 6vh;
+  border-radius: 1.75rem;
+  background-color: #72db73;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.03625rem;
+}
+.conditions {
+  width: 28vw;
+  color: #7c7c7c;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.7%;
+  letter-spacing: 0.0225rem;
+}
+.conditionColor {
+  color: #72db73;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 141.7%;
+  letter-spacing: 0.0225rem;
+}
+.error {
+  color: #f00;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02506rem;
+}
+.inputField.error {
+  border-radius: 0.2385rem;
+  border: 1px solid #f00;
+  background: #292929;
+}

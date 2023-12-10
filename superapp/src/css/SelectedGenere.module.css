@@ -1,0 +1,32 @@
+.categoryCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 0.5rem;
+  overflow-y: scroll;
+  height: 15vh;
+  background-color: #5746ea;
+}
+.categoryInfoBox {
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
+.category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 2.30919rem;
+  background-color: #9f94ff;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.03519rem;
+}

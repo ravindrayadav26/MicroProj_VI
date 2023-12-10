@@ -1,0 +1,35 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+}
+.leftCard,
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.leftCard {
+  padding-left: 2rem;
+}
+.rightCard {
+  align-items: center;
+  padding-right: 2rem;
+}
+.notesCard {
+  display: flex;
+  justify-content: center;
+}
+.leftTopCard {
+  display: flex;
+  gap: 0.5rem;
+}
+.profileDateTime {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}

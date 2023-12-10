@@ -1,0 +1,64 @@
+.newsCard,
+.errorMessage,
+.loadingMessage {
+  width: 26vw;
+  height: 85.5vh;
+  overflow-y: hidden;
+  background-color: #fff;
+  border-radius: 1.1875rem;
+}
+.upperCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.newsImage {
+  width: 26vw;
+  height: 60vh;
+  border-top-right-radius: 1.1875rem;
+  border-top-left-radius: 1.1875rem;
+}
+.errorMessage,
+.loadingMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: rgb(77, 74, 74);
+}
+.date {
+  padding-top: 0.8rem;
+}
+.about {
+  width: 25vw;
+  height: 28vh;
+  border-radius: 0rem 0rem 1.1875rem 1.1875rem;
+  background-color: #fff;
+  text-align: justify;
+  padding: 0.5rem 1.5rem 0rem 1.5rem;
+  color: #272727;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 2.5vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 161.688%;
+  border-bottom-right-radius: 1.1875rem;
+}
+
+.heading {
+  position: absolute;
+  bottom: 0.5vh;
+  width: 26vw;
+  padding: 0 1rem 0 1rem;
+  text-align: left;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3vmin;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 123.688%;
+  letter-spacing: 0.04rem;
+  background-color: rgba(0, 0, 0, 0.74);
+}

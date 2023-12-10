@@ -1,0 +1,17 @@
+.datetimeContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+  height: 5vh;
+  border-radius: 2.08925rem 2.08925rem 0rem 0rem;
+  background-color: #ff4ade;
+
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3.8vmin;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 141.688%;
+  letter-spacing: 0.06881rem;
+}

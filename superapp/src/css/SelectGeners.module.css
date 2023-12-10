@@ -1,0 +1,71 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+  height: 9rem;
+  border-radius: 1.25rem;
+  padding: 0.8rem;
+}
+.action {
+  background-color: #ff5209;
+}
+.drama {
+  background-color: #d7a4ff;
+}
+.romance {
+  background-color: #148a08;
+}
+.thriller {
+  background-color: #84c2ff;
+}
+.western {
+  background-color: #902500;
+}
+.horror {
+  background-color: #7358ff;
+}
+.fantasy {
+  background-color: #ff4ade;
+}
+.music {
+  background-color: #e61e32;
+}
+.fiction {
+  background-color: #6cd061;
+}
+
+.headingBox {
+  width: 8rem;
+  text-align: start;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.image {
+  width: 8rem;
+}
+.btn {
+  width: 8rem;
+  height: 2.4rem;
+  border-radius: 2rem;
+  background: #148a08;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%;
+  letter-spacing: 0.03288rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.selected {
+  border: 4px solid #11b800;
+}

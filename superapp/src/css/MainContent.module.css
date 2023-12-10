@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.browseContainer {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topCard {
+  width: 96vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appLogo {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 2.95831rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.profileLogo {
+  height: 6rem;
+  width: 6rem;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.error,
+.title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 139.688%;
+  letter-spacing: 0.038rem;
+}
+
+.categoryMovies {
+  display: flex;
+  gap: 1rem;
+}

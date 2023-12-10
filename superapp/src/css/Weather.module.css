@@ -1,0 +1,90 @@
+.error,
+.errorMessage,
+.loading,
+.weatherContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40vw;
+  min-height: 22vh;
+  border-bottom-left-radius: 2.08925rem;
+  border-bottom-right-radius: 2.08925rem;
+  background-color: #101744;
+  padding: 0 1.4rem 0.5rem 1.5rem;
+}
+
+.error,
+.loading,
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.weatherInfo,
+.temperatureInfo,
+.windHumidityInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weatherCondition {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.tempMeasurement {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 5vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.pressureInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.5vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.pressureLogo {
+  padding-top: 0.7rem;
+}
+
+.humidityInfo,
+.windInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 2.5vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+  padding-top: 0.5rem;
+}
+.horizontalLine {
+  height: 12vh;
+  margin-top: 1.5rem;
+}
+
+.weatherIcon {
+  color: white;
+  font-size: 3rem;
+  height: 4rem;
+}

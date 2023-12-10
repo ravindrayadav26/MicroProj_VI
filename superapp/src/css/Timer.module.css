@@ -1,0 +1,112 @@
+.timerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 67vw;
+  border-radius: 1.1875rem;
+  background-color: #1e2343;
+}
+
+.timerDisplay {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 105.688%;
+  letter-spacing: 0.1rem;
+}
+
+.countDownOuterCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+  height: 11rem;
+  border-radius: 11rem;
+  background: #191e39;
+  box-shadow: 0px 6px 26px 0px rgba(0, 0, 0, 0.61) inset,
+    -3px -7px 16px 0px rgba(95, 88, 88, 0.23);
+}
+
+.timerInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.inputTime {
+  text-align: center;
+  width: 4rem;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 105.688%;
+  letter-spacing: 0.125rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.UP,
+.Down {
+  background-color: #1e2343;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.timerBtn {
+  width: 15rem;
+  height: 2.2rem;
+  border-radius: 1.25rem;
+  background-color: #ff6a6a;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.0775rem;
+}
+.level {
+  color: #949494;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.065rem;
+  padding: 0.2rem 0rem 0.5rem 0rem;
+}
+.colon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 105.688%;
+  letter-spacing: 0.14rem;
+  padding-top: 2rem;
+}

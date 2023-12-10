@@ -1,0 +1,115 @@
+body {
+  background-color: #000;
+}
+.card {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.leftContainer {
+  width: 46vw;
+  margin-left: 5.5vw;
+  margin-top: 2vw;
+}
+.title {
+  color: #72db73;
+  font-family: Single Day;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 139.688%;
+}
+.leftHeadingBox {
+  width: 25rem;
+}
+.leftHeading {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 139.688%;
+}
+.rightContainer {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  float: right;
+  margin: 3vw;
+  gap: 1.5vw;
+}
+.btn {
+  width: 10rem;
+  height: 2.4rem;
+  border-radius: 2rem;
+  background: #148a08;
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 92.2%;
+  letter-spacing: 0.03288rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.selectedCategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.selectedCategory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1.9375rem;
+  background: #148a08;
+  width: 10rem;
+  height: 3rem;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.03144rem;
+  outline: none;
+  border: none;
+}
+.removeButton {
+  color: #085c00;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-top: 0.2rem;
+  font-family: Roboto;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.03294rem;
+  cursor: pointer;
+}
+.errorMessageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.errorMessage {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 1.57125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 105.688%;
+  letter-spacing: 0.03144rem;
+}

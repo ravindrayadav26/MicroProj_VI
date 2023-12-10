@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.leftContainer {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 5vw;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/Registration.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50vw 100vh;
+}
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: #000;
+}
+.heading {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 7vmin;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 141.688%;
+  letter-spacing: 0.06875rem;
+  padding-left: 4vw;
+}
